@@ -9,8 +9,11 @@ public class PlayerPara
     public float jumpSpeed;
     public float O2;
     public Collider2D playerCollider;
+    public Collider2D handTrigger;
     public Rigidbody2D playerRig;
-    public BaseInteract interact;
+    
+
+    public BaseInteractObject interactObj;
 
     public int jumpCount;    //跳跃计数器
 }

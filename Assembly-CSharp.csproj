@@ -69,6 +69,7 @@
     <Compile Include="Assets\C#\BaseClass.cs" />
     <Compile Include="Assets\C#\PlayerFSM.cs" />
     <Compile Include="Assets\C#\PlayerAi.cs" />
+    <Compile Include="Assets\C#\BaseInteractObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
