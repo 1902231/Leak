@@ -21,10 +21,12 @@ public class water_in_f3 : MonoBehaviour
     {
         //Debug.Log("targetY_in_f3: " + targetY_in_f3);
 
-        if(water_in_f12.f2_in)
-        {
-            targetY_in_f3 += upSpeed_in_f3 * Time.deltaTime;
-        }
+        //if(water_in_f12.f2_in)
+        //{
+        //    targetY_in_f3 += upSpeed_in_f3 * Time.deltaTime;
+        //}
+
+        targetY_in_f3 += upSpeed_in_f3 * Time.deltaTime;
 
         if (Input.GetKey(KeyCode.W))
         {
