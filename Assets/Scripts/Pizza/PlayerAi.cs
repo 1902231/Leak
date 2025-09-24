@@ -9,8 +9,6 @@ public class PlayerAi : MonoBehaviour
     public CheckInteractive checkInteractive;
     public int pickNum;//手中道具的计数器
 
-
-
     void Start()
     {
         PlayerFSM.Instance.playerPara = para;
