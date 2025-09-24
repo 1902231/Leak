@@ -16,18 +16,25 @@ public class PlayerAi : MonoBehaviour
         PlayerFSM.Instance.playerPara = para;
 
         //添加状态
-        PlayerFSM.Instance.AddState(PlayerEState.Idle, new PlayerIdleState());
-        PlayerFSM.Instance.AddState(PlayerEState.Move, new PlayerMoveState());
-        PlayerFSM.Instance.AddState(PlayerEState.Climb, new PlayerClimbState());
+        PlayerFSM.Instance.AddState(PlayerEState.Idle, new Player1IdleState());
+        PlayerFSM.Instance.AddState(PlayerEState.Move, new Player1MoveState());
+        PlayerFSM.Instance.AddState(PlayerEState.Climb, new Player1ClimbState());
+        //添加玩家2的状态
+        PlayerFSM.Instance.AddState(PlayerEState.Idle2, new Player2IdleState());
+        PlayerFSM.Instance.AddState(PlayerEState.Move2, new Player2MoveState());
+        PlayerFSM.Instance.AddState(PlayerEState.Climb2, new Player2ClimbState());
         //切换状态
+        
         PlayerFSM.Instance.SwitchState(PlayerEState.Idle);
+        
     }
     void Update()
     {
         //更新当前状态
-        if (PlayerFSM.Instance.currentState != null)
+        if (PlayerFSM.Instance.currentState != null) 
         {
             PlayerFSM.Instance.currentState.Update();
+            Debug.Log(PlayerFSM.Instance.currentEState);
 
         }
         isOnGround();
@@ -46,33 +53,39 @@ public class PlayerAi : MonoBehaviour
     }
     public void Interactive()
     {
-
-        if (Input.GetKeyDown(KeyCode.F))
+        if (this.name == "Player1")
         {
-
-            if (checkInteractive.interactiveObj && pickNum < 1)
+            if (Input.GetKeyDown(KeyCode.J))
             {
-                pickNum++;
-                checkInteractive.interactiveObj.GetComponent<BaseInteractObject>().PickUp(target);
-                PlayerFSM.Instance.playerPara.interactObj = checkInteractive.interactiveObj.GetComponent<BaseInteractObject>();
+
+                if (checkInteractive.interactiveObj && pickNum < 1)
+                {
+                    pickNum++;
+                    checkInteractive.interactiveObj.GetComponent<BaseInteractObject>().PickUp(target);
+                    PlayerFSM.Instance.playerPara.interactObj = checkInteractive.interactiveObj.GetComponent<BaseInteractObject>();
+                }
+
             }
-
-            
-
-
         }
+        
+        
 
     }
     public void DropObj()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (this.name == "Player1")
         {
-            
-            PlayerFSM.Instance.playerPara.interactObj?.Drop();
-            pickNum = 0;
-            PlayerFSM.Instance.playerPara.interactObj = null;
+            if (Input.GetKeyDown(KeyCode.U))
+            {
 
+                PlayerFSM.Instance.playerPara.interactObj?.Drop();
+                pickNum = 0;
+                PlayerFSM.Instance.playerPara.interactObj = null;
+
+            }
         }
+        
+        
     }
     
 
