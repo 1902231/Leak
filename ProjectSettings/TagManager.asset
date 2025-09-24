@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: out
+    uniqueID: 252156637
+    locked: 0
+  - name: house
+    uniqueID: 2057532865
+    locked: 0
+  - name: in
+    uniqueID: 3604716673
+    locked: 0
+  - name: flood
+    uniqueID: 611254243
+    locked: 0
