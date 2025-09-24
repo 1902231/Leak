@@ -10,13 +10,13 @@ public class water_in_f12 : MonoBehaviour
     public float minYPosition_in_f12;
     public float maxYPosition_in_f12;
 
-    //ÅÐ¶Ï·¿ÄÚÊÇ·ñ±»ÑÍ
+    //åˆ¤æ–­æˆ¿å†…æ˜¯å¦è¢«æ·¹
     public static bool f0_in = false;
     public static bool f1_in = false;
     public static bool f2_in = false;
     public static bool f3_in = false;
 
-    private static float targetY_in_f12; // Ä¿±êÎ»ÖÃ
+    private static float targetY_in_f12; // ç›®æ ‡ä½ç½®
 
     void Start()
     {
@@ -27,7 +27,7 @@ public class water_in_f12 : MonoBehaviour
     {
         //Debug.Log("targetY_in_f12: " + targetY_in_f12);
 
-        #region ÅÐ¶Ï·¿ÄÚÊÇ·ñ±»ÑÍ
+        #region åˆ¤æ–­æˆ¿å†…æ˜¯å¦è¢«æ·¹
         if(targetY_in_f12 >= 136)
         {
             f0_in = true;
@@ -58,15 +58,15 @@ public class water_in_f12 : MonoBehaviour
             
         targetY_in_f12 += upSpeed_in_f12 * Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.W) && water_in_f3.targetY_in_f3 <= 188)
-        {
-            targetY_in_f12 -= downSpeed_in_f12 * Time.deltaTime;
-        }
-        //Ë®Î»·¶Î§
+        // if (Input.GetKey(KeyCode.W) && water_in_f3.targetY_in_f3 <= 188)
+        // {
+        //     targetY_in_f12 -= downSpeed_in_f12 * Time.deltaTime;
+        // }
+        //æ°´ä½èŒƒå›´
         targetY_in_f12 = Mathf.Clamp(targetY_in_f12, minYPosition_in_f12, maxYPosition_in_f12);
 
-        //Æ½»¬ÒÆ¶¯
-        Vector3 newPosition = waterObject_in_f12.transform.position; // Ê¹ÓÃposition´úÌæanchoredPosition
+        //å¹³æ»‘ç§»åŠ¨
+        Vector3 newPosition = waterObject_in_f12.transform.position; // ä½¿ç”¨positionä»£æ›¿anchoredPosition
         newPosition.y = Mathf.Lerp(waterObject_in_f12.transform.position.y, targetY_in_f12, Time.deltaTime * 10f);
         waterObject_in_f12.transform.position = newPosition;
     }

@@ -8,8 +8,7 @@ public class PlayerAi : MonoBehaviour
     public Transform target;
     public CheckInteractive checkInteractive;
     public int pickNum;//手中道具的计数器
-
-
+    
 
     void Start()
     {
@@ -28,7 +27,7 @@ public class PlayerAi : MonoBehaviour
     void Update()
     {
         //更新当前状态
-        if (PlayerFSM.Instance.currentState != null) 
+        if (PlayerFSM.Instance.currentState != null)
         {
             PlayerFSM.Instance.currentState.Update();
             Debug.Log(PlayerFSM.Instance.currentEState);
@@ -37,15 +36,30 @@ public class PlayerAi : MonoBehaviour
         isOnGround();
         Interactive();
         DropObj();
+        Flip();
 
+    }
+    public void Flip()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            this.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.D))
+        {
+            this.GetComponent<SpriteRenderer>().flipX = false;
+        }
+        
     }
     public void isOnGround()
     {
-        //如果玩家的跳跃计数器为0
+
         if (PlayerFSM.Instance.playerPara.playerCollider.IsTouchingLayers(LayerMask.GetMask("Ground")))
         {
             //设置跳跃计数器为1
             PlayerFSM.Instance.playerPara.jumpCount = 1;
+            PlayerFSM.Instance.playerPara.anim.SetBool("isGrounded", true);
+
         }
     }
     public void Interactive()

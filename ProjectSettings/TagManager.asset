@@ -5,11 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Board
+  - Player1
+  - Player2
+  - Tube
+  - Flood_out
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Player
+  - Player1
   - Water
   - UI
   - Ground
@@ -18,9 +22,9 @@ TagManager:
   - Ladder
   - Flood
   - Windows
-  - 
-  - 
-  - 
+  - Player2
+  - Flood_out
+  - OffPoint_Tube
   - 
   - 
   - 
