@@ -19,10 +19,7 @@ public class PlayerAi : MonoBehaviour
         PlayerFSM.Instance.AddState(PlayerEState.Idle, new Player1IdleState());
         PlayerFSM.Instance.AddState(PlayerEState.Move, new Player1MoveState());
         PlayerFSM.Instance.AddState(PlayerEState.Climb, new Player1ClimbState());
-        //添加玩家2的状态
-        PlayerFSM.Instance.AddState(PlayerEState.Idle2, new Player2IdleState());
-        PlayerFSM.Instance.AddState(PlayerEState.Move2, new Player2MoveState());
-        PlayerFSM.Instance.AddState(PlayerEState.Climb2, new Player2ClimbState());
+
         //切换状态
         
         PlayerFSM.Instance.SwitchState(PlayerEState.Idle);

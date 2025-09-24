@@ -45,7 +45,7 @@ public class BaseInteractObject : MonoBehaviour
         if (target != null)
         {
             target = null;
-            rigid.gravityScale = 1;
+            rigid.gravityScale = 20;
         }
 
 
