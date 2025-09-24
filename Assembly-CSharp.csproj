@@ -64,15 +64,18 @@
     <Analyzer Include="D:\Tools\Unity\Unity Editor\2022.3.55f1c1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\C#\PlayerStates.cs" />
-    <Compile Include="Assets\C#\Ladder.cs" />
-    <Compile Include="Assets\C#\PlayerPara.cs" />
-    <Compile Include="Assets\C#\BaseClass.cs" />
-    <Compile Include="Assets\C#\Player2Ai.cs" />
-    <Compile Include="Assets\C#\CheckInteractive.cs" />
-    <Compile Include="Assets\C#\PlayerFSM.cs" />
-    <Compile Include="Assets\C#\PlayerAi.cs" />
-    <Compile Include="Assets\C#\BaseInteractObject.cs" />
+    <Compile Include="Assets\Scripts\Fleece\water_in_f12.cs" />
+    <Compile Include="Assets\Scripts\Pizza\BaseClass.cs" />
+    <Compile Include="Assets\Scripts\Pizza\Player2Ai.cs" />
+    <Compile Include="Assets\Scripts\Pizza\PlayerPara.cs" />
+    <Compile Include="Assets\Scripts\Pizza\Ladder.cs" />
+    <Compile Include="Assets\Scripts\Pizza\PlayerFSM.cs" />
+    <Compile Include="Assets\Scripts\Pizza\BaseInteractObject.cs" />
+    <Compile Include="Assets\Scripts\Pizza\PlayerStates.cs" />
+    <Compile Include="Assets\Scripts\Pizza\PlayerAi.cs" />
+    <Compile Include="Assets\Scripts\Fleece\water_in_f3.cs" />
+    <Compile Include="Assets\Scripts\Pizza\CheckInteractive.cs" />
+    <Compile Include="Assets\Scripts\Fleece\water_out.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
