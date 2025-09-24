@@ -26,7 +26,7 @@ public class Player2Ai : MonoBehaviour
     void Update()
     {
         //更新当前状态
-        if (Player2FSM.Instance.currentState != null) 
+        if (Player2FSM.Instance.currentState != null)
         {
             Player2FSM.Instance.currentState.Update();
             Debug.Log(Player2FSM.Instance.currentEState);
@@ -35,6 +35,10 @@ public class Player2Ai : MonoBehaviour
         isOnGround();
         Interactive();
         DropObj();
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            FixWindow();
+        }
 
     }
     public void isOnGround()
@@ -81,5 +85,46 @@ public class Player2Ai : MonoBehaviour
         }
         
     }
-    
+    public void FixWindow()
+    {
+        // 检查手中是否有物品且物品的tag为Board
+        if (PlayerFSM.Instance.playerPara.interactObj != null && 
+            PlayerFSM.Instance.playerPara.interactObj.gameObject.CompareTag("Board"))
+        {
+            if(PlayerFSM.Instance.playerPara.playerCollider.IsTouchingLayers(LayerMask.GetMask("Windows")))
+            {
+                // 获取与玩家碰撞的所有窗口对象
+                List<Collider2D> results = new List<Collider2D>();
+                ContactFilter2D filter = new ContactFilter2D();
+                filter.layerMask = LayerMask.GetMask("Windows");
+                filter.useLayerMask = true;
+                
+                int count = PlayerFSM.Instance.playerPara.playerCollider.GetContacts(filter, results);
+                
+                // 遍历所有碰撞的窗口对象，调用其Fix方法
+                for (int i = 0; i < count; i++)
+                {
+                    WinAi winAi = results[i].GetComponent<WinAi>();
+                    if (winAi != null)
+                    {
+                        winAi.Fix();
+                        Debug.Log("使用木板修复了窗口: " + results[i].gameObject.name);
+                        // 修复后消耗木板（将interactObj设为null并重置pickNum）
+                        PlayerFSM.Instance.playerPara.interactObj = null;
+                        pickNum = 0;
+                        // 只修复第一个碰撞到的窗口
+                        break;
+                    }
+                }
+            }
+            else
+            {
+                Debug.Log("没有碰撞到可修复的窗口");
+            }
+        }
+        else
+        {
+            Debug.Log("手中没有木板，无法修复窗口");
+        }
+    }
 }
