@@ -10,7 +10,7 @@ public class water_in_f3 : MonoBehaviour
     public float minYPosition_in_f3;
     public float maxYPosition_in_f3;
 
-    public static float targetY_in_f3; // 目标位置
+    public static float targetY_in_f3; // 鐩爣浣嶇疆
 
     void Start()
     {
@@ -21,11 +21,6 @@ public class water_in_f3 : MonoBehaviour
     {
         //Debug.Log("targetY_in_f3: " + targetY_in_f3);
 
-        //if(water_in_f12.f2_in)
-        //{
-        //    targetY_in_f3 += upSpeed_in_f3 * Time.deltaTime;
-        //}
-
         targetY_in_f3 += upSpeed_in_f3 * Time.deltaTime;
 
         if (Input.GetKey(KeyCode.W))
@@ -33,11 +28,11 @@ public class water_in_f3 : MonoBehaviour
             targetY_in_f3 -= downSpeed_in_f3 * Time.deltaTime;
         }
 
-        //水位范围
+        //姘翠綅鑼冨洿
         targetY_in_f3 = Mathf.Clamp(targetY_in_f3, minYPosition_in_f3, maxYPosition_in_f3);
 
-        //平滑移动
-        Vector3 newPosition = waterObject_in_f3.transform.position; // 使用position代替anchoredPosition
+        //骞虫粦绉诲姩
+        Vector3 newPosition = waterObject_in_f3.transform.position; // 浣跨敤position浠ｆ浛anchoredPosition
         newPosition.y = Mathf.Lerp(waterObject_in_f3.transform.position.y, targetY_in_f3, Time.deltaTime * 10f);
         waterObject_in_f3.transform.position = newPosition;
     }

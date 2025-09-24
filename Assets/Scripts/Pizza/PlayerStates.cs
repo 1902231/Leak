@@ -148,7 +148,7 @@ public class Player1ClimbState : BaseState
     }
     public override void Exit()
     {
-        PlayerFSM.Instance.playerPara.playerRig.gravityScale = 4;
+        PlayerFSM.Instance.playerPara.playerRig.gravityScale = 10;
         Debug.Log("玩家退出Climb状态");
     }
 
@@ -315,7 +315,7 @@ public class Player2ClimbState : BaseState
     }
     public override void Exit()
     {
-        Player2FSM.Instance.playerPara.playerRig.gravityScale = 4;
+        Player2FSM.Instance.playerPara.playerRig.gravityScale = 10;
         Debug.Log("玩家2退出Climb状态");
     }
 
