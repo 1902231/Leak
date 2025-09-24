@@ -35,11 +35,20 @@ public class Player2Ai : MonoBehaviour
         isOnGround();
         Interactive();
         DropObj();
-        if (Input.GetKeyDown(KeyCode.I))
-        {
-            FixWindow();
-        }
+        Flip();
 
+    }
+    public void Flip()
+    {
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            this.GetComponent<SpriteRenderer>().flipX = true;
+        }
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            this.GetComponent<SpriteRenderer>().flipX = false;
+        }
+        
     }
     public void isOnGround()
     {
@@ -48,6 +57,7 @@ public class Player2Ai : MonoBehaviour
         {
             //设置跳跃计数器为1
             Player2FSM.Instance.playerPara.jumpCount = 1;
+            Player2FSM.Instance.playerPara.anim.SetBool("isGrounded", true);
         }
     }
     public void Interactive()

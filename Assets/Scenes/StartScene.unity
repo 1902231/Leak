@@ -966,7 +966,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ddac6082d3b894ea5f5e5ac9b62356, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Exitbutton: {fileID: 0}
+  Exitbutton: {fileID: 1125339481}
 --- !u!1 &1146787971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520f8bf1e7a990647b1d4a3119ec72ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Startbutton: {fileID: 0}
+  Startbutton: {fileID: 1146787973}
 --- !u!1 &1553487172
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,7 +1769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9c5891c5cd0a4746ac87bb0d4ae95e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Settingbutton: {fileID: 0}
+  Settingbutton: {fileID: 2126306506}
   SettingWindows: {fileID: 2113684374}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

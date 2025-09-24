@@ -56,6 +56,7 @@ public class Player1MoveState : BaseState
 {
     public override void Enter()
     {
+        PlayerFSM.Instance.playerPara.anim.SetBool("isRunning", true);
         Debug.Log("玩家进入Move状态");
     }
     public override void Update()
@@ -69,6 +70,7 @@ public class Player1MoveState : BaseState
     }
     public override void Exit()
     {
+        PlayerFSM.Instance.playerPara.anim.SetBool("isRunning", false);
         Debug.Log("玩家退出Move状态");
     }
 
@@ -171,6 +173,7 @@ public class Player1DieState : BaseState
 {
     public override void Enter()
     {
+        PlayerFSM.Instance.playerPara.anim.SetBool("isDie", true);
         Debug.Log("玩家1进入Die状态");
     }
     public override void Update()
@@ -179,6 +182,7 @@ public class Player1DieState : BaseState
     }
     public override void Exit()
     {
+        PlayerFSM.Instance.playerPara.anim.SetBool("isDie", false);
         Debug.Log("玩家1退出Die状态");
     }
 }
@@ -246,6 +250,7 @@ public class Player2MoveState : BaseState
 {
     public override void Enter()
     {
+        Player2FSM.Instance.playerPara.anim.SetBool("isRunning", true);
         Debug.Log("玩家2进入Move状态");
     }
     public override void Update()
@@ -259,6 +264,7 @@ public class Player2MoveState : BaseState
     }
     public override void Exit()
     {
+        Player2FSM.Instance.playerPara.anim.SetBool("isRunning", false);
         Debug.Log("玩家2退出Move状态");
     }
 
@@ -361,6 +367,7 @@ public class Player2DieState : BaseState
 {
     public override void Enter()
     {
+        Player2FSM.Instance.playerPara.anim.SetBool("isDie", true);
         Debug.Log("玩家2进入Die状态");
     }
     public override void Update()
@@ -369,6 +376,7 @@ public class Player2DieState : BaseState
     }
     public override void Exit()
     {
+        Player2FSM.Instance.playerPara.anim.SetBool("isDie", false);
         Debug.Log("玩家2退出Die状态");
     }
 }

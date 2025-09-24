@@ -15,6 +15,7 @@ public class WinAi : MonoBehaviour
     public Player2Ai player2Ai;
     public float floodLevel;//窗户开始扣血的水位
     private int breakTimes = 1;
+    public Animator anim;
     
     
     
@@ -53,14 +54,14 @@ public class WinAi : MonoBehaviour
 
         if (health <= 0)
             {
-                this.GetComponent<SpriteRenderer>().color = Color.red;
+                
                 Break();
             }
 
 
         if (health > 0)
         {
-            this.GetComponent<SpriteRenderer>().color = Color.white;
+            
             if (Water_out.targetY_out >= floodLevel)
             {
                 health -= healthDecayRate * Time.deltaTime;//随时间减少生命值
@@ -85,6 +86,7 @@ public class WinAi : MonoBehaviour
     {
         if(breakTimes > 0)
         {
+            anim.SetBool("isBreak", true);
             GameManager.Instance.brokeWinNum++;
             breakTimes--;
         }
@@ -114,6 +116,7 @@ public class WinAi : MonoBehaviour
                         Fix();
                         GameManager.Instance.brokeWinNum--;
                         breakTimes++;
+                        anim.SetBool("isBreak", false);
                     }
                     
                     Destroy(playerAi.para.interactObj.gameObject);
