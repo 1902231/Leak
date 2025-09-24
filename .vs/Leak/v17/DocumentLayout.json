@@ -1,18 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\",
+  "WorkspaceRootPath": "E:\\UnityProject\\GoDownStairs\\Leak\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\water_in_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\water_in_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|e:\\unityproject\\godownstairs\\leak\\assets\\c#\\uisystem\\startscenecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\uisystem\\startscenecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\water_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\water_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|E:\\UnityProject\\GoDownStairs\\Leak\\assets\\c#\\uisystem\\replaybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\uisystem\\replaybutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\water_in_f12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\water_in_f12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|E:\\UnityProject\\GoDownStairs\\Leak\\assets\\c#\\uisystem\\dletewindowsbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\uisystem\\dletewindowsbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|E:\\UnityProject\\GoDownStairs\\Leak\\assets\\c#\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|E:\\UnityProject\\GoDownStairs\\Leak\\assets\\c#\\uisystem\\settingbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\uisystem\\settingbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|E:\\UnityProject\\GoDownStairs\\Leak\\assets\\c#\\uisystem\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\c#\\uisystem\\exitbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,67 +34,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StartSceneCamera.cs",
+              "DocumentMoniker": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\StartSceneCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\UISystem\\StartSceneCamera.cs",
+              "ToolTip": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\StartSceneCamera.cs",
+              "RelativeToolTip": "Assets\\C#\\UISystem\\StartSceneCamera.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T08:33:17.452Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "water_out.cs",
-              "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\water_out.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\water_out.cs",
-              "ToolTip": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\water_out.cs",
-              "RelativeToolTip": "Assets\\Scripts\\water_out.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwCUAAAA6AAAAAAAAAA==",
+              "Title": "ReplayButton.cs",
+              "DocumentMoniker": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\ReplayButton.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\UISystem\\ReplayButton.cs",
+              "ToolTip": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\ReplayButton.cs",
+              "RelativeToolTip": "Assets\\C#\\UISystem\\ReplayButton.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T09:35:01.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-23T09:07:35.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "water_in_f12.cs",
-              "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\water_in_f12.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\water_in_f12.cs",
-              "ToolTip": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\water_in_f12.cs",
-              "RelativeToolTip": "Assets\\Scripts\\water_in_f12.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Title": "DleteWindowsButton.cs",
+              "DocumentMoniker": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\DleteWindowsButton.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\UISystem\\DleteWindowsButton.cs",
+              "ToolTip": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\DleteWindowsButton.cs",
+              "RelativeToolTip": "Assets\\C#\\UISystem\\DleteWindowsButton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T09:39:52.416Z"
+              "WhenOpened": "2025-09-23T08:28:37.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "water_in_f3.cs",
-              "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\water_in_f3.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\water_in_f3.cs",
-              "ToolTip": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\water_in_f3.cs",
-              "RelativeToolTip": "Assets\\Scripts\\water_in_f3.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SettingButton.cs",
+              "DocumentMoniker": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\SettingButton.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\UISystem\\SettingButton.cs",
+              "ToolTip": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\SettingButton.cs",
+              "RelativeToolTip": "Assets\\C#\\UISystem\\SettingButton.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T10:03:00.483Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 85,
-          "SelectedChildIndex": -1,
-          "Children": [
+              "WhenOpened": "2025-09-23T08:09:02.875Z"
+            },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1a46fd64-28d5-0019-8eb3-17a02d419b53}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExitButton.cs",
+              "DocumentMoniker": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\ExitButton.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\UISystem\\ExitButton.cs",
+              "ToolTip": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\ExitButton.cs",
+              "RelativeToolTip": "Assets\\C#\\UISystem\\ExitButton.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:50:05.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartButton.cs",
+              "DocumentMoniker": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\StartButton.cs",
+              "RelativeDocumentMoniker": "Assets\\C#\\UISystem\\StartButton.cs",
+              "ToolTip": "E:\\UnityProject\\GoDownStairs\\Leak\\Assets\\C#\\UISystem\\StartButton.cs",
+              "RelativeToolTip": "Assets\\C#\\UISystem\\StartButton.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:33:45.767Z"
             }
           ]
         }
