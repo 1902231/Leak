@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\Pizza\BaseClass.cs" />
     <Compile Include="Assets\Scripts\Pizza\Player2Ai.cs" />
     <Compile Include="Assets\Scripts\Pizza\PlayerPara.cs" />
+    <Compile Include="Assets\Scripts\tobe.cs" />
     <Compile Include="Assets\Scripts\Pizza\Ladder.cs" />
     <Compile Include="Assets\Scripts\Outline.cs" />
     <Compile Include="Assets\Scripts\Pizza\PlayerFSM.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\Scripts\Pizza\PlayerAi.cs" />
     <Compile Include="Assets\Scripts\Fleece\water_in_f3.cs" />
     <Compile Include="Assets\Scripts\Pizza\CheckInteractive.cs" />
+    <Compile Include="Assets\Scripts\Pizza\GameManager.cs" />
     <Compile Include="Assets\Scripts\Fleece\water_out.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>

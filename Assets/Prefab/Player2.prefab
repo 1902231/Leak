@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 1177376649143056199}
   - component: {fileID: 4857656630921908017}
   - component: {fileID: 2419820885246516732}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: Player2
-  m_TagString: Untagged
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,9 +78,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 5
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7131792, g: 0.1711284, b: 0.78867924, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -185,7 +185,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6287811894282265548}
-  m_Layer: 3
+  m_Layer: 12
   m_Name: InteractiveObjectPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}

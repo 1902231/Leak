@@ -164,6 +164,29 @@ public class Player1ClimbState : BaseState
     }
 }
 
+/// <summary>
+/// 玩家1的Die状态
+/// </summary>
+public class Player1DieState : BaseState
+{
+    public override void Enter()
+    {
+        Debug.Log("玩家1进入Die状态");
+    }
+    public override void Update()
+    {
+        
+    }
+    public override void Exit()
+    {
+        Debug.Log("玩家1退出Die状态");
+    }
+}
+
+
+
+
+
 
 
 
@@ -202,16 +225,16 @@ public class Player2IdleState : BaseState
 
             if (Input.GetKeyDown(KeyCode.UpArrow))
 
-                {
-                    //切换到Climb状态
-                    Player2FSM.Instance.SwitchState(PlayerEState.Climb2);
+            {
+                //切换到Climb状态
+                Player2FSM.Instance.SwitchState(PlayerEState.Climb2);
 
-                }
-                else if (Input.GetKey(KeyCode.DownArrow))
-                {
-                    //切换到Climb状态
-                    Player2FSM.Instance.SwitchState(PlayerEState.Climb2);
-                }
+            }
+            else if (Input.GetKey(KeyCode.DownArrow))
+            {
+                //切换到Climb状态
+                Player2FSM.Instance.SwitchState(PlayerEState.Climb2);
+            }
         }
     }
 }
@@ -286,7 +309,7 @@ public class Player2MoveState : BaseState
 }
 
 /// <summary>
-/// 玩家1的Climb状态
+/// 玩家2的Climb状态
 /// </summary>
 public class Player2ClimbState : BaseState
 {
@@ -328,5 +351,24 @@ public class Player2ClimbState : BaseState
         //根据移动方向和移动速度，设置玩家的速度
         Player2FSM.Instance.playerPara.playerRig.velocity = new Vector2(moveDir * Player2FSM.Instance.playerPara.moveSpeed, Player2FSM.Instance.playerPara.playerRig.velocity.y);
 
+    }
+}
+
+/// <summary>
+/// 玩家2的Die状态
+/// </summary>
+public class Player2DieState : BaseState
+{
+    public override void Enter()
+    {
+        Debug.Log("玩家2进入Die状态");
+    }
+    public override void Update()
+    {
+        
+    }
+    public override void Exit()
+    {
+        Debug.Log("玩家2退出Die状态");
     }
 }

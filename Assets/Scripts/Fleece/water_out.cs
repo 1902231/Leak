@@ -2,44 +2,56 @@ using UnityEngine;
 
 public class Water_out : MonoBehaviour
 {
+    [Header("å±‹å¤–æ°´é¢")]
     public GameObject waterObject_out;
     public float upSpeed_out;
     public float downSpeed_out;
     public float minYPosition_out;
     public float maxYPosition_out;
 
-    //ÅĞ¶ÏË®ÑÍµ½µÚ¼¸²ã
+    [Header("å±‹å¤–æ°´é¢ä¸Šå‡é€Ÿåº¦ç³»æ•°")]
+    public float upSpeed_out_f0false;
+    public float upSpeed_out_f0true;
+
+    //åˆ¤æ–­æ°´æ·¹åˆ°ç¬¬å‡ å±‚
     public static bool f0_out = true;
     public static bool f1_out = false;
     public static bool f2_out = false;
     public static bool f3_out = false;
 
-    public float waveChance_out; //²úÉú²¨¶¯µÄ¸ÅÂÊ
-    public float waveStrength_out; //²¨¶¯·ù¶È
-    public float minWaveInterval_out; //×îĞ¡²¨¶¯¼ä¸ô
+    // æ³¢åŠ¨
+    public float waveInterval_out;   // æ³¢åŠ¨é—´éš”æ—¶é—´ï¼ˆç§’ï¼‰
+    public float waveStrength_out;   // æ¯æ¬¡æ³¢åŠ¨ä¸‹é™çš„å¹…åº¦
 
-    private static float targetY_out; // Ä¿±êÎ»ÖÃ
-    private float lastWaveTime_out; // ÉÏ´Î²¨¶¯Ê±¼ä
+    public static float targetY_out;     // ç›®æ ‡ä½ç½®
+    private float waveTimer_out;          // æ³¢åŠ¨è®¡æ—¶å™¨
 
     void Start()
     {
         targetY_out = waterObject_out.transform.position.y;
-        lastWaveTime_out = Time.time;
+        waveTimer_out = 0;
     }
 
     void Update()
     {
-        //Debug.Log("targetY_out: " + targetY_out);
+        // ä¸Šå‡è¶‹åŠ¿
+        if(!water_in_f3.f0_in)
+        {
+            targetY_out += upSpeed_out * upSpeed_out_f0false * Time.deltaTime;
+        }
+        else
+        {
+            targetY_out += upSpeed_out * -upSpeed_out_f0true * Time.deltaTime;
+        }
 
-        targetY_out += upSpeed_out * Time.deltaTime;
-
+        // Qé”®æ§åˆ¶ä¸‹é™
         if (Input.GetKey(KeyCode.Q))
         {
             targetY_out -= downSpeed_out * Time.deltaTime;
         }
 
-        #region ÅĞ¶ÏºéË®ÑÍµ½ÄÄ
-        if (targetY_out  >= 145)
+        #region åˆ¤æ–­æ´ªæ°´æ·¹åˆ°å“ª
+        if (targetY_out >= 145)
         {
             f1_out = true;
         }
@@ -48,7 +60,7 @@ public class Water_out : MonoBehaviour
             f1_out = false;
         }
 
-        if(targetY_out  >= 175)
+        if (targetY_out >= 175)
         {
             f2_out = true;
         }
@@ -57,7 +69,7 @@ public class Water_out : MonoBehaviour
             f2_out = false;
         }
 
-        if(targetY_out >= 200)
+        if (targetY_out >= 200)
         {
             f3_out = true;
         }
@@ -67,18 +79,18 @@ public class Water_out : MonoBehaviour
         }
         #endregion
 
-        //ÔÚ×îĞ¡¼ä¸ôºó,Ëæ»ú´¥·¢²¨¶¯
-        if (Time.time - lastWaveTime_out > minWaveInterval_out && Random.value < waveChance_out)
+        waveTimer_out += Time.deltaTime;// å®šæ—¶è§¦å‘æ³¢åŠ¨
+        if (waveTimer_out >= waveInterval_out)
         {
-            targetY_out -= Random.Range(waveStrength_out * 0.5f, waveStrength_out);
-            lastWaveTime_out = Time.time;
+            targetY_out -= waveStrength_out;// åˆ°äº†é—´éš”æ—¶é—´ï¼Œè®©æ°´é¢å¾®å¾®ä¸‹é™
+            waveTimer_out = 0;
         }
 
-        //Ë®Î»·¶Î§
+        // é™åˆ¶æ°´ä½èŒƒå›´
         targetY_out = Mathf.Clamp(targetY_out, minYPosition_out, maxYPosition_out);
 
-        //Æ½»¬ÒÆ¶¯
-        Vector3 newPosition = waterObject_out.transform.position; // Ê¹ÓÃposition´úÌæanchoredPosition
+        // å¹³æ»‘ç§»åŠ¨
+        Vector3 newPosition = waterObject_out.transform.position;
         newPosition.y = Mathf.Lerp(waterObject_out.transform.position.y, targetY_out, Time.deltaTime * 10f);
         waterObject_out.transform.position = newPosition;
     }
