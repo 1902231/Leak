@@ -13,7 +13,7 @@ public class PlayerPara
     public Rigidbody2D playerRig;
     
 
-    public BaseInteractObject interactObj;
+    public BaseInteractObject interactObj = null;
 
     public int jumpCount;    //跳跃计数器
 }

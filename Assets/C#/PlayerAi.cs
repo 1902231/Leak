@@ -5,7 +5,12 @@ using UnityEngine;
 public class PlayerAi : MonoBehaviour
 {
     public PlayerPara para;
-    public Transform handTrans;
+    public Transform target;
+    public CheckInteractive checkInteractive;
+    public int pickNum;//手中道具的计数器
+
+
+
     void Start()
     {
         PlayerFSM.Instance.playerPara = para;
@@ -26,7 +31,9 @@ public class PlayerAi : MonoBehaviour
 
         }
         isOnGround();
-        
+        Interactive();
+        DropObj();
+
     }
     public void isOnGround()
     {
@@ -36,34 +43,40 @@ public class PlayerAi : MonoBehaviour
             //设置跳跃计数器为1
             PlayerFSM.Instance.playerPara.jumpCount = 1;
         }
-    }                                                                          
-    public void PickObj()
-    {
-        
-        if (Input.GetKeyDown(KeyCode.F) && PlayerFSM.Instance.playerPara.handTrigger.IsTouchingLayers(LayerMask.GetMask("InteractObj")))
-        {
-            // 获取所有碰撞到的物体
-        ContactFilter2D filter = new ContactFilter2D();
-        filter.SetLayerMask(LayerMask.GetMask("InteractObj"));
-        List<Collider2D> results = new List<Collider2D>();
-        
-        // 获取碰撞到的物体数量
-        int count = PlayerFSM.Instance.playerPara.handTrigger.GetContacts(filter, results);
-        
-        if(count > 0)
-        {
-            // 获取第一个碰撞到的物体
-            GameObject obj = results[0].gameObject;
-            Debug.Log("Collided with: " + obj.name);
-
-            // 调用物品的PickUp方法
-            BaseInteractObject interactObj = obj.GetComponent<BaseInteractObject>();
-                if (interactObj != null)
-                {
-                    interactObj.PickUp(handTrans);
-                }
-            }
-        }
-        
     }
+    public void Interactive()
+    {
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+
+            if (checkInteractive.interactiveObj && pickNum < 1)
+            {
+                pickNum++;
+                checkInteractive.interactiveObj.GetComponent<BaseInteractObject>().PickUp(target);
+                PlayerFSM.Instance.playerPara.interactObj = checkInteractive.interactiveObj.GetComponent<BaseInteractObject>();
+            }
+
+            
+
+
+        }
+
+    }
+    public void DropObj()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            
+            PlayerFSM.Instance.playerPara.interactObj?.Drop();
+            pickNum = 0;
+            PlayerFSM.Instance.playerPara.interactObj = null;
+
+        }
+    }
+    
+
+
+
+    
 }

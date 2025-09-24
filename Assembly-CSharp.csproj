@@ -65,8 +65,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\C#\PlayerStates.cs" />
+    <Compile Include="Assets\C#\Ladder.cs" />
     <Compile Include="Assets\C#\PlayerPara.cs" />
     <Compile Include="Assets\C#\BaseClass.cs" />
+    <Compile Include="Assets\C#\CheckInteractive.cs" />
     <Compile Include="Assets\C#\PlayerFSM.cs" />
     <Compile Include="Assets\C#\PlayerAi.cs" />
     <Compile Include="Assets\C#\BaseInteractObject.cs" />
