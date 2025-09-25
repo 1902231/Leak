@@ -13,11 +13,12 @@ public class ExitButton : MonoBehaviour
     void Start()
     {
         Exitbutton = GetComponent<Button>();
+        Exitbutton.onClick.AddListener(Application.Quit);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Exitbutton.onClick.AddListener(Application.Quit);
     }
 }

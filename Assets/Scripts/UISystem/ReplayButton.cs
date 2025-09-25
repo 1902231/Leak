@@ -13,12 +13,13 @@ public class ReplayButton : MonoBehaviour
     void Start()
     {
         Replaybutton = GetComponent<Button>();
+        Replaybutton.onClick.AddListener(ReplayGame);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Replaybutton.onClick.AddListener(ReplayGame);
     }
 
     void ReplayGame()
