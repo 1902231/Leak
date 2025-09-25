@@ -81,11 +81,13 @@
     <Compile Include="Assets\Scripts\Pizza\Player2Ai.cs" />
     <Compile Include="Assets\Scripts\Pizza\PlayerPara.cs" />
     <Compile Include="Assets\Scripts\tobe.cs" />
+    <Compile Include="Assets\Scripts\isWin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\UISystem\SettingButton.cs" />
     <Compile Include="Assets\Scripts\UISystem\StartButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Pizza\Ladder.cs" />
+    <Compile Include="Assets\Scripts\player1O2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
@@ -99,6 +101,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scripts\Pizza\O2.cs" />
     <Compile Include="Assets\Scripts\Pizza\PlayerStates.cs" />
+    <Compile Include="Assets\Scripts\player2O2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />

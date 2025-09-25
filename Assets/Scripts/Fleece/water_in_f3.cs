@@ -67,6 +67,11 @@ public class water_in_f3 : MonoBehaviour
         {
             f2_in = false;
         }
+
+        if(targetY_in_f3 >= maxYPosition_in_f3)
+        {
+            f3_in = true;
+        }
         #endregion
 
         targetY_in_f3 += upSpeed_in_f3 * Time.deltaTime;
