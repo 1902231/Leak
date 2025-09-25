@@ -11,9 +11,10 @@ public class PlayerPara
     public Collider2D playerCollider;
     public Collider2D handTrigger;
     public Rigidbody2D playerRig;
-    
+
 
     public BaseInteractObject interactObj = null;
 
     public int jumpCount;    //跳跃计数器
+    public Animator anim;
 }
