@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\iswin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iswin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\fleece\\water_in_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\fleece\\water_in_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fleece\\water_in_f3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,63 +27,59 @@
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\playerstates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uisystem\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\fleece\\water_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\fleece\\water_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fleece\\water_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\playerfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\playerfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\playerfsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\endingcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\endingcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endingcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\tobe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\tobe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tobe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\baseinteractobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\baseinteractobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\baseinteractobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\winai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\winai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\winai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\player2ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\player2ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\player2ai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\checkinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\checkinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\checkinteractive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\baseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\ladder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\ladder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\ladder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\o2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\o2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\o2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\pizza\\playerpara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\pizza\\playerpara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pizza\\playerpara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|c:\\users\\21264\\documents\\github\\leak\\assets\\scripts\\fleece\\water_in_f12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|C:\\Users\\21264\\Documents\\GitHub\\Leak\\assets\\scripts\\fleece\\water_in_f12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB2BBA49-AFB6-6710-39F9-40FA6E4E3C1F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fleece\\water_in_f12.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,21 +90,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 274,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 18,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "isWin.cs",
-              "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\isWin.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\isWin.cs",
-              "ToolTip": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\isWin.cs",
-              "RelativeToolTip": "Assets\\Scripts\\isWin.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:08:08.035Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -119,6 +106,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "isWin.cs",
+              "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\isWin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\isWin.cs",
+              "ToolTip": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\isWin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\isWin.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T03:08:08.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
               "Title": "tobe.cs",
               "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\tobe.cs",
@@ -127,8 +127,7 @@
               "RelativeToolTip": "Assets\\Scripts\\tobe.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAwwBoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T05:04:54.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T05:04:54.255Z"
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\WinAi.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAuwJgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T04:13:20.772Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T04:13:20.772Z"
             },
             {
               "$type": "Document",
@@ -153,8 +151,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\Player2Ai.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:40:48.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:40:48.711Z"
             },
             {
               "$type": "Document",
@@ -166,8 +163,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\BaseClass.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:40:04.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:40:04.027Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Fleece\\water_out.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAYwC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:59.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:59.421Z"
             },
             {
               "$type": "Document",
@@ -192,12 +187,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\PlayerFSM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:38:32.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:38:32.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "water_in_f3.cs",
               "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\Fleece\\water_in_f3.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fleece\\water_in_f3.cs",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Fleece\\water_in_f3.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAiwFkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:49.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:49.812Z"
             },
             {
               "$type": "Document",
@@ -218,8 +211,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Fleece\\water_in_f12.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:46.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:46.584Z"
             },
             {
               "$type": "Document",
@@ -231,8 +223,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\BaseInteractObject.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:28.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:28.381Z"
             },
             {
               "$type": "Document",
@@ -244,8 +235,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\CheckInteractive.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:15.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:15.8Z"
             },
             {
               "$type": "Document",
@@ -257,8 +247,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\GameManager.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAiwEMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:14.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:14.632Z"
             },
             {
               "$type": "Document",
@@ -270,8 +259,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\Ladder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:13.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:13.754Z"
             },
             {
               "$type": "Document",
@@ -283,8 +271,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\O2.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:39:07.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:39:07.389Z"
             },
             {
               "$type": "Document",
@@ -296,18 +283,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\PlayerPara.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T03:38:55.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T03:38:55.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "StartButton.cs",
               "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\UISystem\\StartButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UISystem\\StartButton.cs",
               "ToolTip": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\UISystem\\StartButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\UISystem\\StartButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T03:04:34.053Z",
               "EditorCaption": ""
@@ -322,12 +308,11 @@
               "RelativeToolTip": "Assets\\Scripts\\EndingControl.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwBwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:37:30.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T01:37:30.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ExitButton.cs",
               "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\UISystem\\ExitButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UISystem\\ExitButton.cs",
@@ -335,12 +320,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UISystem\\ExitButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:28:20.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T01:28:20.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReplayButton.cs",
               "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\UISystem\\ReplayButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UISystem\\ReplayButton.cs",
@@ -348,12 +332,11 @@
               "RelativeToolTip": "Assets\\Scripts\\UISystem\\ReplayButton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T01:28:04.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T01:28:04.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerStates.cs",
               "DocumentMoniker": "C:\\Users\\21264\\Documents\\GitHub\\Leak\\Assets\\Scripts\\Pizza\\PlayerStates.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Pizza\\PlayerStates.cs",
@@ -361,8 +344,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Pizza\\PlayerStates.cs",
               "ViewState": "AgIAAHEBAAAAAAAAAADwvykAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T18:08:08.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T18:08:08.234Z"
             }
           ]
         },
