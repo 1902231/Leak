@@ -82,11 +82,13 @@
     <Compile Include="Assets\Scripts\Pizza\PlayerPara.cs" />
     <Compile Include="Assets\Scripts\tobe.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\StartGameBtn.cs" />
     <Compile Include="Assets\Scripts\UISystem\SettingButton.cs" />
     <Compile Include="Assets\Scripts\UISystem\StartButton.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\EndingControl.cs" />
     <Compile Include="Assets\Scripts\Pizza\Ladder.cs" />
+    <Compile Include="Assets\Scripts\UISystem\Picture.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
