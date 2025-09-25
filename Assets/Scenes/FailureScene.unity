@@ -222,7 +222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &247691453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 446d3976d26265545bf403f44bd5aa07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Replaybutton: {fileID: 0}
+  Replaybutton: {fileID: 665940242}
 --- !u!114 &665940242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,7 +606,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 665940243}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 665940241}
+        m_TargetAssemblyTypeName: ReplayButton, Assembly-CSharp
+        m_MethodName: ReplayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &665940243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -894,7 +906,6 @@ GameObject:
   - component: {fileID: 1406780565}
   - component: {fileID: 1406780564}
   - component: {fileID: 1406780567}
-  - component: {fileID: 1406780568}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1020,21 +1031,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!114 &1406780568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406780563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab314a36af64535429ca29ea206c8103, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isWin: 0
-  vectory: {fileID: 592341711}
-  failure: {fileID: 247691452}
 --- !u!1 &1693012450
 GameObject:
   m_ObjectHideFlags: 0

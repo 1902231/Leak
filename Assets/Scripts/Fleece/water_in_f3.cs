@@ -80,16 +80,16 @@ public class water_in_f3 : MonoBehaviour
 
 
 
-        // if (Input.GetKey(KeyCode.W))
-        // {
-        //     targetY_in_f3 -= downSpeed_in_f3 * Time.deltaTime;
-        // }
-        // if (Input.GetKey(KeyCode.E))
-        // {
-        //     targetY_in_f3 += downSpeed_in_f3 * Time.deltaTime;
-        //     targetY_in_f12 += downSpeed_in_f12 * Time.deltaTime;
+        //if (Input.GetKey(KeyCode.W))
+        //{
+        //    targetY_in_f3 -= downSpeed_in_f3 * Time.deltaTime;
+        //}
+        //if (Input.GetKey(KeyCode.E))
+        //{
+        //    targetY_in_f3 += downSpeed_in_f3 * Time.deltaTime;
+        //    targetY_in_f12 += downSpeed_in_f12 * Time.deltaTime;
 
-        // }
+        //}
 
 
 

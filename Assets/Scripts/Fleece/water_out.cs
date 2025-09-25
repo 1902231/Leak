@@ -44,8 +44,7 @@ public class Water_out : MonoBehaviour
             targetY_out += upSpeed_out * -upSpeed_out_f0true * Time.deltaTime;
         }
 
-        // Q键控制下降
-        if (Input.GetKey(KeyCode.Q))
+        if (isWin.timer <= 5)
         {
             targetY_out -= downSpeed_out * Time.deltaTime;
         }

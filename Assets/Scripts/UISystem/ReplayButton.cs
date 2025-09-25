@@ -12,18 +12,17 @@ public class ReplayButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Replaybutton = GetComponent<Button>();
-        Replaybutton.onClick.AddListener(ReplayGame);
 
     }
 
     // Update is called once per frame
     void Update()
     {
+
     }
 
-    void ReplayGame()
+    public void ReplayGame()
     {
-        SceneManager.LoadScene("StartScene");
+        SceneManager.LoadScene(0);
     }
 }

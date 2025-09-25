@@ -43,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: New Layer 6
+    uniqueID: 2007732091
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -57,4 +60,7 @@ TagManager:
     locked: 0
   - name: flood
     uniqueID: 611254243
+    locked: 0
+  - name: Rain
+    uniqueID: 3592788213
     locked: 0

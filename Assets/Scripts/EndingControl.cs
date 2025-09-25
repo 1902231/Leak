@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class EndingControl : MonoBehaviour
 {
-    public bool isWin;
+    
+    public bool isWinning;
     public GameObject vectory;
     public GameObject failure;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (isWin)
+        if (isWinning)
         { 
             vectory.SetActive(true);
             failure.SetActive(false);
         }
-        if (!isWin)
+        if (!isWinning)
         {
             vectory.SetActive(false);
             failure.SetActive(true);
@@ -26,6 +27,10 @@ public class EndingControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (GameObject.Find("isWin")!= null)
+        { 
+            print("’“µΩ¡ÀisWin");   
+        }
+        isWinning = GameObject.Find("isWin").GetComponent<isWin>().iswin;
     }
 }
