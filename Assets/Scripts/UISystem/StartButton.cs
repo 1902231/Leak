@@ -19,11 +19,11 @@ public class StartButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Startbutton.onClick.AddListener(StartGame);
+
     }
 
-    void StartGame()
+    public void StartGame()
     {
-        SceneManager.LoadScene("Scene0");
+        SceneManager.LoadScene(0);
     }
 }

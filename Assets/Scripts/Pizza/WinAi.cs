@@ -31,6 +31,9 @@ public class WinAi : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("WinAi health: " + health);
+        Debug.Log("WinAi health: " + health);
+
         // 确保生命值不会小于0,大于10
         if (health > 10)
         {
@@ -135,9 +138,19 @@ public class WinAi : MonoBehaviour
             {
                 if (Input.GetKeyDown(KeyCode.Keypad5))
                 {
-                    Fix();
+                    if (health > 0)
+                    {
+                        Fix();
+                    }
+                    else if (health <= 0)
+                    {
+                        Fix();
+                        GameManager.Instance.brokeWinNum--;
+                        breakTimes++;
+                        anim.SetBool("isBreak", false);
+                    }
                     Destroy(player2Ai.para.interactObj.gameObject);
-                    player2Ai.pickNum = 0;
+                    playerAi.pickNum = 0;
                 }
 
             }
